@@ -40,4 +40,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: YOUR_DOCKERHUB_USERNAME/ci-app:latest
+          tags: hassan350/ci-app:latest
