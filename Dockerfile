@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:21-alpine
 
 
 
@@ -22,4 +22,4 @@ EXPOSE 3000
 
 
 
-CMD ["npm", "start"]
+CMD ["node", "server.js"]
